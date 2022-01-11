@@ -76,6 +76,9 @@ main {
     margin: 0 1em 0.5em 0;
 }
 .sunglasses, .funny-glasses {
+    position: relative;
+    bottom: 6.8em;
+    left: 13.3em;
     width: 80px;
 }
 .monocle {
@@ -96,6 +99,9 @@ main {
     transform: rotate(40deg);
 }
 .bandana {
+    position: absolute;
+    top: 11em;
+    left: 7em;
     width: 80px;
     transform: rotate(10deg);
 }
@@ -106,6 +112,9 @@ main {
     height: auto;
 }
 .pawprint {
+    position: fixed;
+    top: 3em;
+    left: 4em;
     width: 45px;
 }
 .sticky { 
@@ -132,7 +141,15 @@ main {
 }
 .top-hat {
     position: relative;
+    z-index: 2;
     left: 133px;
     top: -10px;
     width: 40px;
+}
+.luna {
+    position: sticky;
+    left: 10em;
+    
+
+
 }
